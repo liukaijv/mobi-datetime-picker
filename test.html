@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <title>datetime</title>
+
+    <link href="src/css/mobiscroll.animation.css" rel="stylesheet">
+    <link href="src/css/mobiscroll.icons.css" rel="stylesheet">
+    <link href="src/css/mobiscroll.frame.css" rel="stylesheet">
+
+    <link href="src/css/mobiscroll.frame.ios.css" rel="stylesheet">
+    <link href="src/css/mobiscroll.scroller.css" rel="stylesheet">
+
+    <link href="src/css/mobiscroll.scroller.ios.css" rel="stylesheet">
+
+    <script src="src/js/jquery.min.js"></script>
+
+    <script src="src/js/mobiscroll.core.js"></script>
+    <script src="src/js/mobiscroll.frame.js"></script>
+    <script src="src/js/mobiscroll.scroller.js"></script>
+
+    <script src="src/js/mobiscroll.util.datetime.js"></script>
+    <script src="src/js/mobiscroll.datetimebase.js"></script>
+    <script src="src/js/mobiscroll.datetime.js"></script>
+
+    <script src="src/js/mobiscroll.i18n.zh.js"></script>
+
+
+    <script>
+        $(function () {
+            $('#demo_datetime').mobiscroll().datetime({
+                theme: 'ios',
+                mode: 'scroller',
+                display: 'top',
+                lang: 'zh',
+                minDate: new Date(2012, 3, 10, 9, 22),
+                maxDate: new Date(2014, 7, 30, 15, 44),
+                stepMinute: 5
+            });
+        })
+    </script>
+</head>
+<body>
+
+<input type="text" id="demo_datetime">
+
+</body>
+</html>
