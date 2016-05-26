@@ -1,7 +1,7 @@
 {
   "name": "mobi-datetime-picker",
   "version": "0.0.1",
-  "description": "移动端手机datetime选择插件，基于mobiscroll修改",
+  "description": "mobiscroll datetime custom theme",
   "author": "noop",
   "license": "BSD",
   "devDependencies": {
